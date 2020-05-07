@@ -8,4 +8,4 @@ The project has three classes that are used throughout the program, each of them
 * <b>Sentiment Analysis for movie reviews</b>:
     For this task I selected the "distilbert-base-uncased-finetuned-sst-2-english" for running a sentiment analysis on a movie reviews dataset, then the output printed     to the terminal.
 * <b>Training a NER Model for a medical purpose</b>:
-    For this task a
+    For this task a model from scratch using Spacy and the Medica
