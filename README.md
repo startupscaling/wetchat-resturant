@@ -10,4 +10,4 @@ The project has three classes that are used throughout the program, each of them
 * <b>Training a NER Model for a medical purpose</b>:
     For this task a model from scratch using Spacy and the Medical NER dataset (https://www.kaggle.com/datasets/finalepoch/medical-ner), the training loss graph can be     viewed when running the program, also some metrics are used to evaluate the model.
     
-    <
+    <p align="center"><img style="width: 50
