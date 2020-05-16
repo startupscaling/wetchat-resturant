@@ -12,4 +12,4 @@ The project has three classes that are used throughout the program, each of them
     
     <p align="center"><img style="width: 500px; height: 400px;" src="loss_graph.jpg" alt="loss_graph"></p>
     
-* <b>Obta
+* <b>Obtaining the Bleu Score of translations (english to spanish) mad
