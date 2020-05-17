@@ -13,4 +13,4 @@ The project has three classes that are used throughout the program, each of them
     <p align="center"><img style="width: 500px; height: 400px;" src="loss_graph.jpg" alt="loss_graph"></p>
     
 * <b>Obtaining the Bleu Score of translations (english to spanish) made by AWS and GCP Translation APIs</b>:
-    For this task we will use the AWS and GCP
+    For this task we will use the AWS and GCP Translation APIs, to set up the 
