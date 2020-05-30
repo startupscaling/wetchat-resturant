@@ -14,4 +14,4 @@ The project has three classes that are used throughout the program, each of them
     
 * <b>Obtaining the Bleu Score of translations (english to spanish) made by AWS and GCP Translation APIs</b>:
     For this task we will use the AWS and GCP Translation APIs, to set up the env file which contains the AWS API keys you will have to create a new "secrets.env" and     write the following variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN, REGION_NAME.
-    To make this process much ea
+    To make this process much easier there is a function on the Translate cla
