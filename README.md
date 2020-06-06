@@ -17,3 +17,4 @@ The project has three classes that are used throughout the program, each of them
     To make this process much easier there is a function on the Translate class which takes like paramas the secrets.env and the json file from GCP.
     
 ### Installing
+Installation of the project can be done by following the
