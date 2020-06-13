@@ -19,4 +19,5 @@ The project has three classes that are used throughout the program, each of them
 ### Installing
 Installation of the project can be done by following these steps:
 * Make a new virtual environment using Anaconda or venv.
-* Activate your virtual 
+* Activate your virtual environment.
+* Execute the following command in the t
