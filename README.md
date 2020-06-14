@@ -25,3 +25,4 @@ Installation of the project can be done by following these steps:
 
 ### Executing program
 
+* Activate a virtual environment or create 
