@@ -27,4 +27,4 @@ Installation of the project can be done by following these steps:
 
 * Activate a virtual environment or create a new one.
 * Move to the directory where you cloned this repo.
-* Exe
+* Execute the following command in the termin
