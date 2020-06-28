@@ -31,4 +31,5 @@ Installation of the project can be done by following these steps:
 
 ## Authors
 
-Carlos de Jesús Áv
+Carlos de Jesús Ávila González
+A01750220@itesm.mx
