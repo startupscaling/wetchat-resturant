@@ -144,3 +144,31 @@ class NER:
         FINAL_MODEL = nlp.to_disk('./')
         
     def model_evaluation(self):
+        
+        """
+        Evaluates the model using the F1-Score, Recall and Precision for the
+        entities (how well did the model tagged the content).
+        
+        Returns
+        -------
+        None.
+        """
+        
+        model = spacy.load('./')
+        scorer = Scorer()
+
+        examples = []
+
+        for input, annotations in self.test:
+            doc_gold_text = model.make_doc(input)
+            example = Example.from_dict(doc_gold_text, annotations)
+            example.predicted = model(str(example.predicted))
+            examples.append(example)
+
+        scores = scorer.score(examples)
+
+        print('\nEvaluation Metrics\n')
+        print('Entity precision Score: {}%\nEntity recall Score: {}\nEntity F1-Score: {}'.format(round(scores['ents_p']*100, 2),
+                                                                                                 round(scores['ents_r'], 3),
+                                                                                                 round(scores['ents_f'], 3)
+                                                                                                 ))
