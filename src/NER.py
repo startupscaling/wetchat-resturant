@@ -99,3 +99,48 @@ class NER:
         
         self.train = full_data[:20]
         self.test = full_data[20:30]
+        
+    def model_trainer(self):
+        
+        """
+        Trains the model using a blank spacy model and the training dataset,
+        plots the training loss and saves the model to the same path.
+        
+        Returns
+        -------
+        None
+        """
+        FINAL_MODEL = None
+        iter = 30
+        train_loss= []
+        nlp = spacy.blank('en')
+
+        ner = nlp.add_pipe('ner', last=True)
+
+        for _, annotations in self.train:
+            for entity in annotations.get('entities'):
+                ner.add_label(entity[2])
+                
+        other_pipes = [pipe for pipe in nlp.pipe_names if pipe != 'ner']
+        with nlp.disable_pipes(*other_pipes):
+            optimizer = nlp.begin_training()
+            print('Training the model')
+            for it in tqdm(range(iter), desc='Training'):
+                random.shuffle(self.train)
+                losses = {}
+                for text, annotations in self.train:
+                    doc = nlp.make_doc(text)
+                    example = Example.from_dict(doc, annotations)
+                    nlp.update([example], drop= 0.2, sgd=optimizer, losses=losses)
+                train_loss.append(losses['ner'])
+                
+        fig, ax = plt.subplots()
+        ax.plot(train_loss, color='r')
+        ax.set_title('Training loss')
+        ax.set_ylabel('Loss')
+        ax.set_xlabel('Steps (epochs)')
+        plt.show()
+
+        FINAL_MODEL = nlp.to_disk('./')
+        
+    def model_evaluation(self):
