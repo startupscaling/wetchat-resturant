@@ -53,3 +53,49 @@ class NER:
             string that contains the name of the file where the data is.
         """
         
+        self.rawdata = rawdata
+        self.data = None
+        self.train = None
+        self.test = None
+        
+    def read_ner_data(self):
+        
+        """
+        Reads the data that contains the file which path is contained in rawdata.
+        
+        Returns
+        -------
+        A message indicating the data has been collected.
+        """
+        
+        with open(self.rawdata, 'r' ) as f:
+            self.data = json.load(f)['examples']
+        
+        return 'Data collected'
+    
+    def preprocess_data(self):
+        
+        """
+        Puts the data in the Spacy training dataset way, which is:
+        "{content: str, annotations: {(start, end, tag)}}"
+        
+        Returns
+        -------
+        None
+        """
+        
+        full_data = []
+
+        for datapoints in self.data:
+            entities = []
+            for annotations in datapoints['annotations']:
+                if len(annotations['value']) == len(annotations['value'].strip()):
+                    if len(annotations['human_annotations']) == 0:
+                        continue
+                    entities.append((annotations['start'], annotations['end'], annotations['tag_name']))
+            
+            if len(entities) > 0:
+                full_data.append((datapoints['content'], {'entities': entities}))
+        
+        self.train = full_data[:20]
+        self.test = full_data[20:30]
