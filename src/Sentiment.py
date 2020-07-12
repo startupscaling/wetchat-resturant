@@ -63,3 +63,16 @@ class Sentiment:
         """
         
         tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+
+        model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
+
+        for d in self.data:
+            inputs = tokenizer(d, return_tensors="pt", max_length=512, truncation=True)
+            with torch.no_grad():
+                logits = model(**inputs).logits
+
+            predicted_class_id = logits.argmax().item()
+            if predicted_class_id == 1:
+                print("POSITIVE")
+            else:
+                print("NEGATIVE")
