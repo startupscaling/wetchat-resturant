@@ -1,4 +1,4 @@
 import boto3
 import os
 
-from nl
+from nltk.translate.bleu_score import sentenc
