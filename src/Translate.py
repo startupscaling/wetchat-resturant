@@ -9,4 +9,6 @@ from google.cloud import translate_v2 as translate
 class Translate:
     
     """
-    A class used to give solution t
+    A class used to give solution to the third task of the homework.
+    
+    ...
