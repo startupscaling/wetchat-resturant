@@ -6,4 +6,7 @@ from dotenv import load_dotenv
 from google.cloud import translate_v2 as translate
 
 
-cl
+class Translate:
+    
+    """
+    A class used to give solution t
