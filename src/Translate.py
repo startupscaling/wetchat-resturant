@@ -12,3 +12,7 @@ class Translate:
     A class used to give solution to the third task of the homework.
     
     ...
+    
+    Attributes
+    ----------
+    lan
