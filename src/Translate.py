@@ -15,4 +15,5 @@ class Translate:
     
     Attributes
     ----------
-    lan
+    lang1_data : str
+        string that contai
