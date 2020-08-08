@@ -16,4 +16,4 @@ class Translate:
     Attributes
     ----------
     lang1_data : str
-        string that contai
+        string that contains the name of the file where the data from t
