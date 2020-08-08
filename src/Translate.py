@@ -19,4 +19,5 @@ class Translate:
         string that contains the name of the file where the data from the first
         language is.
         
- 
+    lang2_data : str
+        string that c
