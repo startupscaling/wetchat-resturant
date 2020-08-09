@@ -20,4 +20,7 @@ class Translate:
         language is.
         
     lang2_data : str
-        string that contains the name of the file where t
+        string that contains the name of the file where the data from the second
+        language is.
+    
+  
