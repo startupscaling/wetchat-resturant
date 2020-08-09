@@ -25,4 +25,5 @@ class Translate:
     
     Methods
     -------
-    env_variables(env_file, en
+    env_variables(env_file, env_json):
+        Reads the data from the 
