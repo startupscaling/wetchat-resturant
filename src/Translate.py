@@ -23,4 +23,6 @@ class Translate:
         string that contains the name of the file where the data from the second
         language is.
     
-  
+    Methods
+    -------
+    env_variables(env_file, en
