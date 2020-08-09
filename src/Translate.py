@@ -20,4 +20,4 @@ class Translate:
         language is.
         
     lang2_data : str
-        string that c
+        string that contains the name of the file where t
