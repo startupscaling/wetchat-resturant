@@ -28,4 +28,5 @@ class Translate:
     env_variables(env_file, env_json):
         Reads the data from the files and sets up the env variables.
     
-    prepr
+    preprocess_data():
+        Reads and pr
