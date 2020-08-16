@@ -29,4 +29,4 @@ class Translate:
         Reads the data from the files and sets up the env variables.
     
     preprocess_data():
-        Reads and pr
+        Reads and preprocesses the data contained in the 
