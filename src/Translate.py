@@ -29,4 +29,5 @@ class Translate:
         Reads the data from the files and sets up the env variables.
     
     preprocess_data():
-        Reads and preprocesses the data contained in the 
+        Reads and preprocesses the data contained in the two files and assigns the 
+        first NUM_LINES_
