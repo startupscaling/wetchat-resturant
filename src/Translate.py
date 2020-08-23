@@ -33,4 +33,5 @@ class Translate:
         first NUM_LINES_TO_PROCESS of the file to a list.
     
     translate_bleu():
-        Translate the texts (from english 
+        Translate the texts (from english to spanish) using AWS Translate API 
+        and Clo
