@@ -34,4 +34,5 @@ class Translate:
     
     translate_bleu():
         Translate the texts (from english to spanish) using AWS Translate API 
-        and Cloud Translation API and calculates the bleu
+        and Cloud Translation API and calculates the bleu scores of the translation 
+   
