@@ -41,4 +41,7 @@ class Translate:
     def __init__(self, lang1_data=None, lang2_data=None):
         
         """
-        Constructs all the necessary attributes for the translate obj
+        Constructs all the necessary attributes for the translate object.
+
+        Parameters
+        ----------
