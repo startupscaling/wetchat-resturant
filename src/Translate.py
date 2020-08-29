@@ -38,3 +38,4 @@ class Translate:
         and the original text (spanish).
     """
     
+    def __init__(self, lang1_data=None, lang2_data=
