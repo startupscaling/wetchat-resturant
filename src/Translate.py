@@ -46,4 +46,7 @@ class Translate:
         Parameters
         ----------
         lang1_data : str
-            string that contains the name of the file where the data 
+            string that contains the name of the file where the data from the first
+            language is.
+        
+  
