@@ -45,3 +45,5 @@ class Translate:
 
         Parameters
         ----------
+        lang1_data : str
+            string that c
