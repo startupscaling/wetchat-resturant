@@ -50,4 +50,5 @@ class Translate:
             language is.
         
         lang2_data : str
-            string that contains the name of the file where the dat
+            string that contains the name of the file where the data from the first
+            language 
