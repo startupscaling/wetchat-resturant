@@ -51,4 +51,7 @@ class Translate:
         
         lang2_data : str
             string that contains the name of the file where the data from the first
-            language 
+            language is.
+        """
+        
+        self.lang1_data = lang
