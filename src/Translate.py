@@ -54,4 +54,5 @@ class Translate:
             language is.
         """
         
-        self.lang1_data = lang
+        self.lang1_data = lang1_data
+        self.lang2_data = l
