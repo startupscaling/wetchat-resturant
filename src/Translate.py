@@ -57,4 +57,6 @@ class Translate:
         self.lang1_data = lang1_data
         self.lang2_data = lang2_data
         self.__aws_auth = {}
-        self.
+        self.lang1 = None
+        self.lang2 = None
+   
