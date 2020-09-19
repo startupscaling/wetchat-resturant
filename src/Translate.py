@@ -60,4 +60,7 @@ class Translate:
         self.lang1 = None
         self.lang2 = None
         
-    def env_variables(self, env_file, en
+    def env_variables(self, env_file, env_json):
+        
+        """
+        Reads the data
