@@ -63,4 +63,6 @@ class Translate:
     def env_variables(self, env_file, env_json):
         
         """
-        Reads the data from the files and sets up the env
+        Reads the data from the files and sets up the env variables.
+        
+        Parameters
