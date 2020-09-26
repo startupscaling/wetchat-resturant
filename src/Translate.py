@@ -66,3 +66,5 @@ class Translate:
         Reads the data from the files and sets up the env variables.
         
         Parameters
+        ----------
+        env
