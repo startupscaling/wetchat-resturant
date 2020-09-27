@@ -71,4 +71,6 @@ class Translate:
             string that contains the file where the AWS API keys are.
             
         env_json : str
-            string that contains the file wher
+            string that contains the file where the GCP API keys are.
+            
+        
