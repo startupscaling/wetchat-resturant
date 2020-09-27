@@ -67,4 +67,5 @@ class Translate:
         
         Parameters
         ----------
-        env
+        env_file : str
+            string that contains the file wh
