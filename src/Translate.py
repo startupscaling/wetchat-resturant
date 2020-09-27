@@ -70,4 +70,5 @@ class Translate:
         env_file : str
             string that contains the file where the AWS API keys are.
             
-        env_j
+        env_json : str
+            string that contains the file wher
