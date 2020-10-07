@@ -73,4 +73,7 @@ class Translate:
         env_json : str
             string that contains the file where the GCP API keys are.
             
-        
+        Returns
+        -------
+        None
+     
