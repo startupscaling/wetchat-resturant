@@ -78,4 +78,6 @@ class Translate:
         None
         """
         
-        load_dotenv(env_file
+        load_dotenv(env_file)
+
+        self.__aws_auth['access_key'] = os.get
