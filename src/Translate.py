@@ -80,4 +80,5 @@ class Translate:
         
         load_dotenv(env_file)
 
-        self.__aws_auth['access_key'] = os.get
+        self.__aws_auth['access_key'] = os.getenv("AWS_ACCESS_KEY_ID")
+        self.__
