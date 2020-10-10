@@ -76,4 +76,6 @@ class Translate:
         Returns
         -------
         None
-     
+        """
+        
+        load_dotenv(env_file
