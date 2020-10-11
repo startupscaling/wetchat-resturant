@@ -81,4 +81,5 @@ class Translate:
         load_dotenv(env_file)
 
         self.__aws_auth['access_key'] = os.getenv("AWS_ACCESS_KEY_ID")
-        self.__aws_auth['secret_access_key'] = os.getenv("AWS_SECRE
+        self.__aws_auth['secret_access_key'] = os.getenv("AWS_SECRET_ACCESS_KEY")
+        self.__aws_auth['session_
