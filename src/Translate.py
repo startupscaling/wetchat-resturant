@@ -82,4 +82,5 @@ class Translate:
 
         self.__aws_auth['access_key'] = os.getenv("AWS_ACCESS_KEY_ID")
         self.__aws_auth['secret_access_key'] = os.getenv("AWS_SECRET_ACCESS_KEY")
-        self.__aws_auth['session_
+        self.__aws_auth['session_token'] = os.getenv("AWS_SESSION_TOKEN")
+     
