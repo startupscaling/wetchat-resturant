@@ -83,4 +83,6 @@ class Translate:
         self.__aws_auth['access_key'] = os.getenv("AWS_ACCESS_KEY_ID")
         self.__aws_auth['secret_access_key'] = os.getenv("AWS_SECRET_ACCESS_KEY")
         self.__aws_auth['session_token'] = os.getenv("AWS_SESSION_TOKEN")
-        self.__aws_auth['region'] = os.getenv("REGION_NA
+        self.__aws_auth['region'] = os.getenv("REGION_NAME")
+
+        os.environ["GOOGLE_APPLICATIO
