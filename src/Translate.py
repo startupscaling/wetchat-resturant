@@ -90,4 +90,4 @@ class Translate:
     def preprocess_data(self):
         
         """
-        Rea
+        Reads and preprocesses the data contained in the tw
