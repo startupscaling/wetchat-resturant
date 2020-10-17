@@ -85,4 +85,6 @@ class Translate:
         self.__aws_auth['session_token'] = os.getenv("AWS_SESSION_TOKEN")
         self.__aws_auth['region'] = os.getenv("REGION_NAME")
 
-        os.environ["GOOGLE_APPLICATIO
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = env_json
+        
+    def preproce
