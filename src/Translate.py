@@ -87,4 +87,7 @@ class Translate:
 
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = env_json
         
-    def preproce
+    def preprocess_data(self):
+        
+        """
+        Rea
