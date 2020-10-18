@@ -90,4 +90,5 @@ class Translate:
     def preprocess_data(self):
         
         """
-        Reads and preprocesses the data contained in the tw
+        Reads and preprocesses the data contained in the two files and assigns the 
+        first 
