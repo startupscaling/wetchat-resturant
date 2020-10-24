@@ -91,4 +91,5 @@ class Translate:
         
         """
         Reads and preprocesses the data contained in the two files and assigns the 
-        first 
+        first NUM_LINES_TO_PROCESS of the file to a list.
+  
