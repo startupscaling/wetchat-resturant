@@ -94,4 +94,5 @@ class Translate:
         first NUM_LINES_TO_PROCESS of the file to a list.
         
         Returns
-        -----
+        -------
+        A message indicating the data 
