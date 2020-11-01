@@ -95,4 +95,7 @@ class Translate:
         
         Returns
         -------
-        A message indicating the data 
+        A message indicating the data has been collected
+        """
+        
+        NUM_
