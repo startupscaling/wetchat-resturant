@@ -98,4 +98,6 @@ class Translate:
         A message indicating the data has been collected
         """
         
-        NUM_
+        NUM_LINES_TO_PROCESS = 100
+        
+        s
