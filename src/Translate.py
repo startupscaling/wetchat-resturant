@@ -101,4 +101,6 @@ class Translate:
         NUM_LINES_TO_PROCESS = 100
         
         spanish_texts = []
-        english_texts
+        english_texts = []
+
+        with open(self.lang1_
