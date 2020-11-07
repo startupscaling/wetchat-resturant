@@ -100,4 +100,5 @@ class Translate:
         
         NUM_LINES_TO_PROCESS = 100
         
-        s
+        spanish_texts = []
+        english_texts
