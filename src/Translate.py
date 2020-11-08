@@ -104,4 +104,5 @@ class Translate:
         english_texts = []
 
         with open(self.lang1_data, 'r', encoding='utf-8') as f:
-            li
+            lines = f.readlines()
+            for line in lin
