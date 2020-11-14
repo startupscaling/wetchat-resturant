@@ -108,4 +108,5 @@ class Translate:
             for line in lines[:NUM_LINES_TO_PROCESS]:
                 spanish_texts.append(line)
             
-        with open(self.lang2_data, 'r', encoding
+        with open(self.lang2_data, 'r', encoding='utf-8') as f:
+            lines = f.re
