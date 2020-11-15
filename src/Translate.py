@@ -109,4 +109,5 @@ class Translate:
                 spanish_texts.append(line)
             
         with open(self.lang2_data, 'r', encoding='utf-8') as f:
-            lines = f.re
+            lines = f.readlines()
+            for line in lin
