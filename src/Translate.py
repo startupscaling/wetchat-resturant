@@ -113,4 +113,5 @@ class Translate:
             for line in lines[:NUM_LINES_TO_PROCESS]:
                 english_texts.append(line)
 
-        spanish_texts = [x.replace("\n", "") for
+        spanish_texts = [x.replace("\n", "") for x in spanish_texts]
+        english_texts = [x.
