@@ -114,4 +114,4 @@ class Translate:
                 english_texts.append(line)
 
         spanish_texts = [x.replace("\n", "") for x in spanish_texts]
-        english_texts = [x.
+        english_texts = [x.replace("\n", "") for x in english_
