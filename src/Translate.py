@@ -116,4 +116,5 @@ class Translate:
         spanish_texts = [x.replace("\n", "") for x in spanish_texts]
         english_texts = [x.replace("\n", "") for x in english_texts]
         
-        self.lang1
+        self.lang1 = spanish_texts
+        self.lang2 = engli
