@@ -119,4 +119,7 @@ class Translate:
         self.lang1 = spanish_texts
         self.lang2 = english_texts
         
-        return 'Data coll
+        return 'Data collected'
+        
+    def translate_bleu(self):
+   
