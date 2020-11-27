@@ -122,4 +122,6 @@ class Translate:
         return 'Data collected'
         
     def translate_bleu(self):
-   
+        
+        """
+        Translate the te
