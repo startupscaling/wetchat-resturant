@@ -124,4 +124,4 @@ class Translate:
     def translate_bleu(self):
         
         """
-        Translate the te
+        Translate the texts (from english to spanish) using AWS Tran
