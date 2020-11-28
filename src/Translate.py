@@ -124,4 +124,5 @@ class Translate:
     def translate_bleu(self):
         
         """
-        Translate the texts (from english to spanish) using AWS Tran
+        Translate the texts (from english to spanish) using AWS Translate API 
+        and Cloud Translation API and
