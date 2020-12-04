@@ -127,3 +127,8 @@ class Translate:
         Translate the texts (from english to spanish) using AWS Translate API 
         and Cloud Translation API and calculates the bleu scores of the translation 
         and the original text (spanish).
+        
+        Returns
+        -------
+        None
+  
