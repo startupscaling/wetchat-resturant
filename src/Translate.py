@@ -133,4 +133,5 @@ class Translate:
         None
         """
         
-        aws_translate = boto3.c
+        aws_translate = boto3.client('translate',
+                                
