@@ -136,4 +136,5 @@ class Translate:
         aws_translate = boto3.client('translate',
                                 aws_access_key_id= self.__aws_auth['access_key'],
                                 aws_secret_access_key= self.__aws_auth['secret_access_key'],
-                                aws_session_token= s
+                                aws_session_token= self.__aws_auth['session_token'],
+           
