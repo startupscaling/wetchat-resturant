@@ -141,4 +141,7 @@ class Translate:
 
         google_translate = translate.Client()
 
-        aws_b
+        aws_bleu = []
+        google_bleu = []
+
+        fo
