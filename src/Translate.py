@@ -139,4 +139,6 @@ class Translate:
                                 aws_session_token= self.__aws_auth['session_token'],
                                 region_name=self.__aws_auth['region'])
 
-        google_translate = 
+        google_translate = translate.Client()
+
+        aws_b
