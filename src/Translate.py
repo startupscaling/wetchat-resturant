@@ -144,4 +144,4 @@ class Translate:
         aws_bleu = []
         google_bleu = []
 
-        fo
+        for i, input_to_translate in enumerate(self.lang2)
