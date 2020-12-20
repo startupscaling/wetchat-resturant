@@ -151,4 +151,4 @@ class Translate:
                                             TargetLanguageCode='es')
 
 
-            go
+            google_result = google_translate.translate
