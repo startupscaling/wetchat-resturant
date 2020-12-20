@@ -147,4 +147,5 @@ class Translate:
         for i, input_to_translate in enumerate(self.lang2):
 
             aws_result = aws_translate.translate_text(Text= input_to_translate, 
-                                            SourceLanguag
+                                            SourceLanguageCode='en', 
+                                     
