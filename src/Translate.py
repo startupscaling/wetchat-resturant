@@ -148,4 +148,7 @@ class Translate:
 
             aws_result = aws_translate.translate_text(Text= input_to_translate, 
                                             SourceLanguageCode='en', 
-                                     
+                                            TargetLanguageCode='es')
+
+
+            go
