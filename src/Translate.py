@@ -151,4 +151,7 @@ class Translate:
                                             TargetLanguageCode='es')
 
 
-            google_result = google_translate.translate
+            google_result = google_translate.translate(input_to_translate, 'es')
+
+
+            Ableu = senten
