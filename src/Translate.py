@@ -154,4 +154,4 @@ class Translate:
             google_result = google_translate.translate(input_to_translate, 'es')
 
 
-            Ableu = sentence_bleu(self.lang1[i].split(), aws_result['TranslatedText'].split()) # Here I'm referencing the other languag
+            Ableu = sentence_bleu(self.lang1[i].split(), aws_result['TranslatedText'].split()) # Here I'm referencing the other language data, so I have to use the index to extrac
