@@ -155,4 +155,4 @@ class Translate:
 
 
             Ableu = sentence_bleu(self.lang1[i].split(), aws_result['TranslatedText'].split()) # Here I'm referencing the other language data, so I have to use the index to extract the texts.
-            Gbleu = sentence
+            Gbleu = sentence_bleu(self.lang1[i].split(), google_re
