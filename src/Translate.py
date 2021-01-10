@@ -160,4 +160,5 @@ class Translate:
             aws_bleu.append(Ableu)
             google_bleu.append(Gbleu)
             
-        print("AWS Score
+        print("AWS Score: %s" % (sum(aws_bleu)/100))
+        prin
