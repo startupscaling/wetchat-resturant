@@ -9,4 +9,6 @@ from Sentiment import Sentiment
 from NER import NER
 from Translate import Translate
 
-def test_s
+def test_sentiment():
+    
+    sentiment = S
