@@ -12,4 +12,4 @@ from Translate import Translate
 def test_sentiment():
     
     sentiment = Sentiment('tiny_movie_reviews_dataset.txt')
-    ass
+    assert sentiment.read_sentiment_data() == 'Data collecte
