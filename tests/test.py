@@ -11,4 +11,5 @@ from Translate import Translate
 
 def test_sentiment():
     
-    sentiment = S
+    sentiment = Sentiment('tiny_movie_reviews_dataset.txt')
+    ass
