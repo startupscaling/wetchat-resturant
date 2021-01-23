@@ -12,4 +12,8 @@ from Translate import Translate
 def test_sentiment():
     
     sentiment = Sentiment('tiny_movie_reviews_dataset.txt')
-    assert sentiment.read_sentiment_data() == 'Data collecte
+    assert sentiment.read_sentiment_data() == 'Data collected'
+
+def test_ner():
+
+    ner = NER('Corona2
