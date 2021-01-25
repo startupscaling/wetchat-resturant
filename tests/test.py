@@ -16,4 +16,5 @@ def test_sentiment():
 
 def test_ner():
 
-    ner = NER('Corona2
+    ner = NER('Corona2.json')
+    assert ner.read_ner_data() == 'Data
