@@ -21,4 +21,4 @@ def test_ner():
     
 def test_trans():
     
-    t
+    translate = Translate('europarl-v7.es-en.es', 'eur
