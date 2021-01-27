@@ -21,4 +21,5 @@ def test_ner():
     
 def test_trans():
     
-    translate = Translate('europarl-v7.es-en.es', 'eur
+    translate = Translate('europarl-v7.es-en.es', 'europarl-v7.es-en.en')
+    assert transl
