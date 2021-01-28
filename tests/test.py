@@ -23,4 +23,8 @@ def test_trans():
     
     translate = Translate('europarl-v7.es-en.es', 'europarl-v7.es-en.en')
     assert translate.preprocess_data() == 'Data collected'
-   
+    
+test_sentiment()
+test_ner()
+test_trans()
+    
